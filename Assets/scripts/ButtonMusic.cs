@@ -26,5 +26,12 @@ public class ButtonMusic : MonoBehaviour
             slideron = false;
         }
     }
+
+    public void SliderClose()
+    {
+        slider.SetActive(false);
+        slideron = false;
+        
+    }
     
 }
